@@ -7,22 +7,26 @@ permalink: /questions/coding-questions/index.html
 Question: What is the value of `foo`?
 ```javascript
 var foo = 10 + '20';
+//'1020'
 ```
 
 Question: What will be the output of the code below?
 ```javascript
 console.log(0.1 + 0.2 == 0.3);
+//false --> 0.300000004 or something
 ```
 
 Question: How would you make this work?
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
+// add must return a function that can be invoked
 ```
 
 Question: What value is returned from the following statement?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
+
 ```
 
 Question: What is the value of `window.foo`?
