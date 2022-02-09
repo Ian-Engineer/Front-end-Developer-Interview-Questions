@@ -5,8 +5,12 @@ permalink: /questions/javascript-questions/index.html
 ---
 
 * Explain event delegation.
+*** Using an event handler on the parent function that determines which element was clicked on and executes based on the target.
+
 * Explain how `this` works in JavaScript.
   * Can you give an example of one of the ways that working with `this` has changed in ES6?
+*** this is defined by its scope
+ 
 * Explain how prototypal inheritance works.
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
